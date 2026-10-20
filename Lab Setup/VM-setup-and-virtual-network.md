@@ -73,10 +73,10 @@ Here is the step-by-step process to build and configure both machines in your la
 * Click Close and then Finish.   
 * Select your new Kali VM from the left panel and click Power on this virtual machine to run through the Kali Linux text/graphical installation.
 
-## Phase 3: Add the Victim Machine (Windows or Linux)
+## Phase 3: Add the Victim Machine (Windows or Ubuntu Server)
 * Click File > New Virtual Machine again to start the wizard for your target/victim.
 *  Choose Typical and click Next.
-*  Select Installer disc image file (iso) and browse to your Windows 10/11 or target OS ISO file, then click Next.
+*  Select Installer disc image file (iso) and browse to your Windows 10/11 or ubuntu server or target OS ISO file, then click Next.
 *  Enter your Windows product key (or leave it blank if you are using an evaluation/trial ISO), select the version, and fill out username/password credentials for Easy Install. Click Next.
 * Name the machine (e.g., Windows-Victim) and select its storage path, then click Next.
 * Allocate disk space (e.g., 40 GB for Windows) and choose Store virtual disk as a single file, then click Next.
