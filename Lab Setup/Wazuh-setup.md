@@ -72,5 +72,19 @@ Before booting the machine for the first time, allocate sufficient hardware reso
   ```bash
   ip a
   ```
+* Look under your network interface (usually eth0 or ens33) and note down the IPv4 address (e.g., 192.168.x.x).
+
+### Step 5: Access the Wazuh Dashboard
+* Open a web browser on your Host Machine (or inside your Kali Attacker VM if on the same network).
+* Navigate to:
+  ```bash
+  https://<WAZUH_SERVER_IP>
+  ```
+  (Example: [https://192.168.172.128](https://192.168.172.128))
+  * Your browser will show a "Your connection is not private / SSL Warning" because of the default self-signed certificate.
+  * Click Advanced and select Proceed / Accept Risk and Continue.
+  * Log in to the Web Interface using the default admin credentials:
+       * Username: admin
+       * Password: admin   
   
  
